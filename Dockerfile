@@ -19,6 +19,7 @@ EXPOSE 8000
 
 CMD ["python", "-m", "streamlit", "run", "app/main.py"]
 #CMD . /opt/venv/bin/activate && exec streamlit run app/main.py
+# CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "80"]
 
 # COPY /app ./st_dock_az 
 
