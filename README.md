@@ -1,5 +1,4 @@
-App link : 
-[a link](https://f1appmath.azurewebsites.net)
+App link : https://f1appmath.azurewebsites.net
 
 # Streamlit dockerized web app pushed on Azure and hosted on Github for CI/CD
 
