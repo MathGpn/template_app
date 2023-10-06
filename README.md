@@ -12,11 +12,7 @@ git clone repo
 ```
 
 ```python
-cd app
-```
-
-```python
-docker build -f ../Dockerfile -t st_dock_az:latest . 
+docker build -f Dockerfile -t st_dock_az:latest . 
 ```
 
 ```python
