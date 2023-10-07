@@ -62,6 +62,7 @@ Lien de l'app : f1appmath.azurewebsites.net
 ## CI/CD
 
 A Github Action has been made in order to keep the application maintained when we push new modifications on the Web App.
+The pipeline builds and push the image for deployment on the Azure Web App Service when you push on the main branch.
 
 ## Overview
 
