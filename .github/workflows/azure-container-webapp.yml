@@ -34,12 +34,17 @@ on:
     branches: [ "main" ]
   workflow_dispatch:
 
-permissions:
-  contents: write
+# permissions:
+#   contents: write
 
 jobs:
-  build:
+
+  build-and-push-image:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
 
     steps:
       - uses: actions/checkout@v3
@@ -68,7 +73,7 @@ jobs:
     permissions:
       contents: none
     runs-on: ubuntu-latest
-    needs: build
+    needs: build-and-push-image
     environment:
       name: 'Development'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
