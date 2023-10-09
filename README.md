@@ -1,6 +1,6 @@
 App link : https://f1appmath.azurewebsites.net
 
-Remarque : Si chargement dans le vide, changer le "plan app service" (sur Azure, aller sur la web app, configuration, params généraux, "toujours activé").
+Remarque : Vérifier le "plan app service" si on souhaite obtenir de meilleurs performances d'hébergement.
 
 # Streamlit dockerized web app pushed on Azure and hosted on Github for CI/CD
 
