@@ -1,5 +1,7 @@
 App link : https://f1appmath.azurewebsites.net
 
+Remarque : Vérifier le "plan app service" si on souhaite obtenir de meilleurs performances d'hébergement.
+
 # Streamlit dockerized web app pushed on Azure and hosted on Github for CI/CD
 
 Made with Python 3.10 on Windows 10
@@ -62,6 +64,7 @@ Lien de l'app : f1appmath.azurewebsites.net
 ## CI/CD
 
 A Github Action has been made in order to keep the application maintained when we push new modifications on the Web App.
+The pipeline builds and push the image for deployment on the Azure Web App Service when you push on the main branch.
 
 ## Overview
 
